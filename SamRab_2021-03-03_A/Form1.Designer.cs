@@ -35,6 +35,18 @@
             button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
+            // button1
+            // 
+            button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            button1.Location = new System.Drawing.Point(242, 88);
+            button1.Name = "button1";
+            button1.Size = new System.Drawing.Size(296, 80);
+            button1.TabIndex = 3;
+            button1.Text = "Создать массив";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -60,23 +72,11 @@
             this.textBox2.Size = new System.Drawing.Size(184, 364);
             this.textBox2.TabIndex = 2;
             // 
-            // button1
-            // 
-            button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            button1.Location = new System.Drawing.Point(242, 88);
-            button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(296, 80);
-            button1.TabIndex = 3;
-            button1.Text = "Создать массив";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(583, 417);
             this.Controls.Add(button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
